@@ -1,0 +1,2540 @@
+[
+  {
+    "service": [
+      {
+        "id": "73e4e90c-c189-4a9d-b125-965c5d325194",
+        "name": "Website Development",
+        "description": "Customized solutions for your business",
+        "cost": 61541,
+        "duration": 32170,
+        "created_at": "2023-10-04T09:28:48.267Z",
+        "updated_at": "2023-10-03T19:55:36.087Z",
+        "service_type": "IT Services",
+        "product_type": "Web Applications",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "635f23c0-669e-4c7e-82ea-7261e8b3f4ae",
+        "name": "Mobile App Development",
+        "description": "Cutting-edge technology expertise",
+        "cost": 51924,
+        "duration": 72782,
+        "created_at": "2023-10-03T12:55:55.530Z",
+        "updated_at": "2023-10-03T14:43:39.280Z",
+        "service_type": "Consulting",
+        "product_type": "Mobile Apps",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e00dc787-2367-402c-9fc6-162e270bb708",
+        "name": "Cloud Consulting",
+        "description": "Strategic consulting for digital transformation",
+        "cost": 7927,
+        "duration": 26068,
+        "created_at": "2023-10-03T18:37:18.904Z",
+        "updated_at": "2023-10-04T00:05:48.011Z",
+        "service_type": "Software Development",
+        "product_type": "Cloud Solutions",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d18058a2-53f0-4f8d-8882-92e3b32e2b0b",
+        "name": "Data Analytics",
+        "description": "Insights-driven decision making",
+        "cost": 8397,
+        "duration": 93252,
+        "created_at": "2023-10-03T17:41:17.309Z",
+        "updated_at": "2023-10-04T10:21:59.130Z",
+        "service_type": "Data Analysis",
+        "product_type": "Data Analytics Tools",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f972ad09-6731-412e-87e7-76aedefa1060",
+        "name": "Cybersecurity Solutions",
+        "description": "Protecting your digital assets",
+        "cost": 94939,
+        "duration": 46806,
+        "created_at": "2023-10-03T16:46:12.763Z",
+        "updated_at": "2023-10-04T07:46:29.725Z",
+        "service_type": "Cybersecurity",
+        "product_type": "Security Software",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "59d95231-34b3-4101-b1ed-7ff833b5eb26",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 54973,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-03T13:04:26.947Z",
+        "updated_at": "2023-10-03T15:00:50.321Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "259d7536-2988-4f3d-a85a-d782ccb856f8",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 99331,
+        "vin": "2HGFB2F58DH567890",
+        "color": "Blue",
+        "created_at": "2023-10-03T23:04:34.265Z",
+        "updated_at": "2023-10-04T00:27:36.695Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a60a4c3-00b6-4b7c-882c-1dd65743f614",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 18421,
+        "vin": "1FAFP4043WF123456",
+        "color": "Black",
+        "created_at": "2023-10-04T11:09:55.543Z",
+        "updated_at": "2023-10-04T09:40:58.995Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3f381ca-7989-49f0-b1a1-4172eeb58ef2",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 1943,
+        "vin": "1GCEC14V2YE123456",
+        "color": "White",
+        "created_at": "2023-10-04T02:19:57.051Z",
+        "updated_at": "2023-10-04T06:47:17.362Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ddd3392-400f-42e5-878c-0b29949cbe82",
+        "make": "BMW",
+        "model": "X5",
+        "year": 38301,
+        "vin": "5UXFA535X2L123456",
+        "color": "Silver",
+        "created_at": "2023-10-03T18:49:53.185Z",
+        "updated_at": "2023-10-03T19:02:02.271Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "a290a9bf-7d63-4e9c-9e22-8cde7a659294",
+        "date": "2023-10-04T00:49:51.492Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID",
+        "created_at": "2023-10-03T22:54:05.703Z",
+        "updated_at": "2023-10-03T14:40:19.875Z",
+        "car_id": "259d7536-2988-4f3d-a85a-d782ccb856f8",
+        "service_id": "635f23c0-669e-4c7e-82ea-7261e8b3f4ae",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d286c21-9b08-433d-b10f-ae4d4d53c1b0",
+        "date": "2023-10-03T23:04:03.914Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-03T23:25:44.817Z",
+        "updated_at": "2023-10-03T20:03:03.792Z",
+        "car_id": "2ddd3392-400f-42e5-878c-0b29949cbe82",
+        "service_id": "d18058a2-53f0-4f8d-8882-92e3b32e2b0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67639ed1-bd07-40e2-9da6-5102e6f4c093",
+        "date": "2023-10-03T20:52:48.790Z",
+        "status": "In Progress",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-04T03:47:26.810Z",
+        "updated_at": "2023-10-03T19:35:51.530Z",
+        "car_id": "259d7536-2988-4f3d-a85a-d782ccb856f8",
+        "service_id": "e00dc787-2367-402c-9fc6-162e270bb708",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66f59734-2cf5-4fd8-94f0-8eafb716853b",
+        "date": "2023-10-04T00:30:31.394Z",
+        "status": "Completed",
+        "notes": "Follow-up required",
+        "created_at": "2023-10-04T02:26:55.597Z",
+        "updated_at": "2023-10-03T11:18:54.504Z",
+        "car_id": "1a60a4c3-00b6-4b7c-882c-1dd65743f614",
+        "service_id": "d18058a2-53f0-4f8d-8882-92e3b32e2b0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d61065d-093b-4adb-b99c-f9cc1f92ad09",
+        "date": "2023-10-04T10:14:05.556Z",
+        "status": "Cancelled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-10-03T20:11:05.155Z",
+        "updated_at": "2023-10-03T22:15:01.458Z",
+        "car_id": "2ddd3392-400f-42e5-878c-0b29949cbe82",
+        "service_id": "d18058a2-53f0-4f8d-8882-92e3b32e2b0b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "ac45e793-0f65-4536-8791-ba396d7d7544",
+        "total_cost": 39931,
+        "paid": false,
+        "payment_date": "2023-10-04T06:35:27.328Z",
+        "created_at": "2023-10-03T16:52:50.472Z",
+        "updated_at": "2023-10-03T12:00:43.287Z",
+        "appointment_id": "9d61065d-093b-4adb-b99c-f9cc1f92ad09",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fda3747-62ec-4b24-8599-c9b87fea549d",
+        "total_cost": 30261,
+        "paid": false,
+        "payment_date": "2023-10-03T13:18:51.611Z",
+        "created_at": "2023-10-04T01:16:55.305Z",
+        "updated_at": "2023-10-04T09:40:38.238Z",
+        "appointment_id": "a290a9bf-7d63-4e9c-9e22-8cde7a659294",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ceb866a4-ae6f-46a3-be0a-668857ad5568",
+        "total_cost": 10070,
+        "paid": true,
+        "payment_date": "2023-10-03T22:50:25.644Z",
+        "created_at": "2023-10-03T23:52:41.023Z",
+        "updated_at": "2023-10-03T17:50:23.952Z",
+        "appointment_id": "9d286c21-9b08-433d-b10f-ae4d4d53c1b0",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3238b50d-ffe5-4d87-b8ec-d8615cbbd73a",
+        "total_cost": 43268,
+        "paid": true,
+        "payment_date": "2023-10-04T06:05:24.489Z",
+        "created_at": "2023-10-03T13:27:53.670Z",
+        "updated_at": "2023-10-03T20:32:54.577Z",
+        "appointment_id": "67639ed1-bd07-40e2-9da6-5102e6f4c093",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7108cfe-85db-4ea6-9beb-07068809bf2c",
+        "total_cost": 93828,
+        "paid": false,
+        "payment_date": "2023-10-04T01:37:36.881Z",
+        "created_at": "2023-10-03T13:07:18.635Z",
+        "updated_at": "2023-10-04T05:53:03.151Z",
+        "appointment_id": "a290a9bf-7d63-4e9c-9e22-8cde7a659294",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5a499a65-1e36-415c-822b-ad7c8f3168a0",
+        "email": "Granville61@roq.tech",
+        "firstName": "Kenyon",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/563.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f040f00c-5563-4d0e-8f56-02c6f2249dec",
+        "email": "Litzy_Stiedemann@roq.tech",
+        "firstName": "Maxie",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14061498",
+        "tenantId": null
+      },
+      {
+        "reference": "a203510d-5e9c-431d-9550-003ad33916cc",
+        "email": "Zita_Kunde@roq.tech",
+        "firstName": "Juliet",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76845697",
+        "tenantId": null
+      },
+      {
+        "reference": "38e7d657-722c-4222-8b1b-a5008ee129d9",
+        "email": "Austen.Okuneva@roq.tech",
+        "firstName": "Delphia",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f1bfed4-6bdb-46af-8693-00368d8c11ea",
+        "email": "Colton.OConnell84@roq.tech",
+        "firstName": "Nolan",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92754985",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "181882f0-463d-4627-81d3-94ecb44452a6",
+        "name": "Web Development",
+        "description": "Customized website solutions",
+        "cost": 31599,
+        "duration": 34410,
+        "created_at": "2023-10-03T22:44:45.279Z",
+        "updated_at": "2023-10-04T04:02:48.674Z",
+        "service_type": "Professional",
+        "product_type": "Software",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "381a6dca-d714-436f-8cff-067bbb457931",
+        "name": "Graphic Design",
+        "description": "Creative visual communication",
+        "cost": 71517,
+        "duration": 96361,
+        "created_at": "2023-10-04T02:23:57.372Z",
+        "updated_at": "2023-10-03T14:24:58.235Z",
+        "service_type": "Managed",
+        "product_type": "Hardware",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "187604cf-5778-4791-be44-b85bb4c3c1c6",
+        "name": "Marketing Strategy",
+        "description": "Strategic marketing campaigns",
+        "cost": 49060,
+        "duration": 2780,
+        "created_at": "2023-10-03T14:00:51.514Z",
+        "updated_at": "2023-10-03T19:34:17.509Z",
+        "service_type": "Consulting",
+        "product_type": "Digital",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "98cab03d-348a-40c9-8e3e-35772bf2e735",
+        "name": "IT Consulting",
+        "description": "Technology advisory services",
+        "cost": 4162,
+        "duration": 17100,
+        "created_at": "2023-10-03T12:10:59.959Z",
+        "updated_at": "2023-10-04T10:28:36.385Z",
+        "service_type": "Support",
+        "product_type": "Physical",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d7f3a372-91e9-4664-8c44-7a7a8d5ae210",
+        "name": "Social Media Management",
+        "description": "Online brand promotion",
+        "cost": 31079,
+        "duration": 70519,
+        "created_at": "2023-10-04T09:30:13.962Z",
+        "updated_at": "2023-10-03T23:37:30.125Z",
+        "service_type": "Training",
+        "product_type": "Virtual",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "5957bd2b-b29c-48e4-b525-efa0e15c7539",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 30743,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-03T23:51:52.962Z",
+        "updated_at": "2023-10-04T00:46:35.966Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "823a7324-6195-4bf3-90db-8651b21ecd20",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 83195,
+        "vin": "2T1BR32E56C123456",
+        "color": "Blue",
+        "created_at": "2023-10-04T01:59:28.579Z",
+        "updated_at": "2023-10-04T05:26:09.653Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c7ec638-5343-4f3a-ba77-d21fc71e04fe",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 45433,
+        "vin": "1FTFW1EF0CF123456",
+        "color": "Black",
+        "created_at": "2023-10-04T07:53:07.603Z",
+        "updated_at": "2023-10-04T08:53:16.805Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bd22d79-4020-474e-82e1-0e49859e5fe4",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 9570,
+        "vin": "3GCPKSE31BG123456",
+        "color": "White",
+        "created_at": "2023-10-03T22:35:51.212Z",
+        "updated_at": "2023-10-04T07:36:38.935Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f81f09d1-ad60-41b4-9076-bdaee36559a0",
+        "make": "BMW",
+        "model": "X5",
+        "year": 52436,
+        "vin": "5UXKR0C57G0P12345",
+        "color": "Silver",
+        "created_at": "2023-10-04T07:38:15.221Z",
+        "updated_at": "2023-10-03T18:19:56.706Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b66708e3-94b7-45e8-8238-7861c585d9d0",
+        "date": "2023-10-04T01:38:27.395Z",
+        "status": "Scheduled",
+        "notes": "Please bring any relevant documents",
+        "created_at": "2023-10-03T19:53:43.201Z",
+        "updated_at": "2023-10-03T15:23:43.099Z",
+        "car_id": "4c7ec638-5343-4f3a-ba77-d21fc71e04fe",
+        "service_id": "98cab03d-348a-40c9-8e3e-35772bf2e735",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edce7c01-11a2-4a6e-b152-8ff58f9782e7",
+        "date": "2023-10-04T10:41:50.364Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-03T16:36:17.208Z",
+        "updated_at": "2023-10-03T13:24:58.546Z",
+        "car_id": "823a7324-6195-4bf3-90db-8651b21ecd20",
+        "service_id": "381a6dca-d714-436f-8cff-067bbb457931",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c83dad0-3b30-454b-be92-6f3945fa432e",
+        "date": "2023-10-03T21:28:49.068Z",
+        "status": "In Progress",
+        "notes": "Payment due at the end of the appointment",
+        "created_at": "2023-10-04T11:07:00.793Z",
+        "updated_at": "2023-10-03T18:35:17.733Z",
+        "car_id": "823a7324-6195-4bf3-90db-8651b21ecd20",
+        "service_id": "181882f0-463d-4627-81d3-94ecb44452a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eddddd9-f4d7-4492-9aa8-790748eb4a02",
+        "date": "2023-10-03T17:16:37.235Z",
+        "status": "Completed",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-10-03T23:13:10.287Z",
+        "updated_at": "2023-10-04T09:55:09.747Z",
+        "car_id": "5957bd2b-b29c-48e4-b525-efa0e15c7539",
+        "service_id": "187604cf-5778-4791-be44-b85bb4c3c1c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3904d13-2ed7-4f1a-80fa-7b309c0ab8b0",
+        "date": "2023-10-04T01:04:34.189Z",
+        "status": "Cancelled",
+        "notes": "Additional charges may apply",
+        "created_at": "2023-10-03T20:47:50.597Z",
+        "updated_at": "2023-10-04T07:16:14.357Z",
+        "car_id": "0bd22d79-4020-474e-82e1-0e49859e5fe4",
+        "service_id": "98cab03d-348a-40c9-8e3e-35772bf2e735",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "eff52cbb-0775-4088-8329-139070447c54",
+        "total_cost": 13748,
+        "paid": true,
+        "payment_date": "2023-10-04T01:09:47.953Z",
+        "created_at": "2023-10-03T11:59:37.904Z",
+        "updated_at": "2023-10-03T14:50:54.184Z",
+        "appointment_id": "a3904d13-2ed7-4f1a-80fa-7b309c0ab8b0",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc9d6276-2c56-4b5b-bc25-ec422c20d950",
+        "total_cost": 62113,
+        "paid": true,
+        "payment_date": "2023-10-03T15:00:39.865Z",
+        "created_at": "2023-10-03T20:08:40.761Z",
+        "updated_at": "2023-10-03T22:08:25.142Z",
+        "appointment_id": "a3904d13-2ed7-4f1a-80fa-7b309c0ab8b0",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d7da6c-3072-41dd-934d-f2e5d4603bef",
+        "total_cost": 38070,
+        "paid": true,
+        "payment_date": "2023-10-03T21:46:48.949Z",
+        "created_at": "2023-10-03T12:01:38.291Z",
+        "updated_at": "2023-10-04T05:18:33.730Z",
+        "appointment_id": "2eddddd9-f4d7-4492-9aa8-790748eb4a02",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d539e7dc-9982-4e06-be32-bbba573e40b7",
+        "total_cost": 6776,
+        "paid": false,
+        "payment_date": "2023-10-04T05:38:38.701Z",
+        "created_at": "2023-10-04T01:29:28.679Z",
+        "updated_at": "2023-10-04T04:47:53.905Z",
+        "appointment_id": "2eddddd9-f4d7-4492-9aa8-790748eb4a02",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79765f64-6814-4ae8-82ff-3c95a783b97e",
+        "total_cost": 44195,
+        "paid": false,
+        "payment_date": "2023-10-04T02:29:55.313Z",
+        "created_at": "2023-10-04T05:39:33.967Z",
+        "updated_at": "2023-10-04T07:16:19.988Z",
+        "appointment_id": "9c83dad0-3b30-454b-be92-6f3945fa432e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f9d6fba-4dcb-4b52-9ec5-a80ce64974f9",
+        "email": "Elsie28@roq.tech",
+        "firstName": "Lesly",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7aa387f4-a30e-4e31-b9bc-f553644812f7",
+        "email": "Winona.Lehner@roq.tech",
+        "firstName": "Joanny",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/762.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bc9d0ecb-5c42-42a7-9edd-dba551617fd5",
+        "email": "Aubree.Schumm@roq.tech",
+        "firstName": "Oda",
+        "lastName": "Considine-Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94979178",
+        "tenantId": null
+      },
+      {
+        "reference": "1f9f58f2-9f7e-43ac-b58b-7408675d2fd3",
+        "email": "Israel.Schiller@roq.tech",
+        "firstName": "Marjorie",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93975069",
+        "tenantId": null
+      },
+      {
+        "reference": "66e3c506-818c-45d3-9abe-73dfa390e91a",
+        "email": "Leatha.Walter53@roq.tech",
+        "firstName": "River",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71791845",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "562f3ecf-407b-4966-b0bf-bc422e1d6980",
+        "name": "Web Design",
+        "description": "Professional website design services",
+        "cost": 52351,
+        "duration": 46832,
+        "created_at": "2023-10-03T22:15:30.576Z",
+        "updated_at": "2023-10-03T18:18:17.712Z",
+        "service_type": "Software",
+        "product_type": "SaaS",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e9cb38da-2322-4dac-9dda-5279b753427d",
+        "name": "Mobile App Development",
+        "description": "Cutting-edge mobile app development solutions",
+        "cost": 23647,
+        "duration": 95955,
+        "created_at": "2023-10-03T16:13:59.445Z",
+        "updated_at": "2023-10-03T23:46:40.826Z",
+        "service_type": "Consulting",
+        "product_type": "Enterprise",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37f36d4b-d4d1-4d6a-9f57-18d99af3def4",
+        "name": "Cloud Consulting",
+        "description": "Expert cloud consulting and implementation",
+        "cost": 62560,
+        "duration": 324,
+        "created_at": "2023-10-03T16:10:32.647Z",
+        "updated_at": "2023-10-04T02:48:10.645Z",
+        "service_type": "Marketing",
+        "product_type": "E-commerce",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e744d66a-c181-4d4e-9da8-8367fcc02d6e",
+        "name": "Data Analytics",
+        "description": "Advanced data analytics solutions",
+        "cost": 28101,
+        "duration": 96794,
+        "created_at": "2023-10-04T04:07:13.729Z",
+        "updated_at": "2023-10-03T20:26:15.196Z",
+        "service_type": "Design",
+        "product_type": "Healthcare",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "92840fc2-f35e-4460-b405-fb4251cbe9c6",
+        "name": "IT Support",
+        "description": "Comprehensive IT support and maintenance",
+        "cost": 82344,
+        "duration": 77672,
+        "created_at": "2023-10-03T21:54:40.449Z",
+        "updated_at": "2023-10-03T22:22:34.361Z",
+        "service_type": "Training",
+        "product_type": "Finance",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "e418722d-04a1-4455-9125-06cf421ff078",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 49205,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-04T02:54:59.791Z",
+        "updated_at": "2023-10-04T05:21:25.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c841c9e-bf22-4042-ad52-59f7cde91356",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 52361,
+        "vin": "2T1BR12E5XC123456",
+        "color": "Blue",
+        "created_at": "2023-10-04T06:14:53.773Z",
+        "updated_at": "2023-10-03T16:25:49.723Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "307daf48-6402-4d1c-a9ac-1b97577e4f7c",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 95452,
+        "vin": "1FAFP4049YF123456",
+        "color": "Black",
+        "created_at": "2023-10-03T23:30:29.067Z",
+        "updated_at": "2023-10-03T13:20:03.586Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e1b3eca-7028-444c-a193-f323f5e13cad",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 83901,
+        "vin": "1G1PC5SB7E7234567",
+        "color": "Silver",
+        "created_at": "2023-10-03T16:19:27.661Z",
+        "updated_at": "2023-10-03T18:52:25.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdaddf48-7e02-4e26-ab40-54a8489c38f9",
+        "make": "BMW",
+        "model": "X5",
+        "year": 48367,
+        "vin": "5UXKR0C5XC1234567",
+        "color": "White",
+        "created_at": "2023-10-03T18:50:50.355Z",
+        "updated_at": "2023-10-03T18:52:43.961Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "028c4c05-c32c-4ea0-afb9-725cc1e04722",
+        "date": "2023-10-03T19:13:35.139Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID",
+        "created_at": "2023-10-04T06:20:21.125Z",
+        "updated_at": "2023-10-04T00:13:03.893Z",
+        "car_id": "4e1b3eca-7028-444c-a193-f323f5e13cad",
+        "service_id": "37f36d4b-d4d1-4d6a-9f57-18d99af3def4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "517ec45c-c56a-462b-b1f9-7b117e352620",
+        "date": "2023-10-04T03:13:20.115Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-04T01:01:10.867Z",
+        "updated_at": "2023-10-03T17:08:33.208Z",
+        "car_id": "e418722d-04a1-4455-9125-06cf421ff078",
+        "service_id": "562f3ecf-407b-4966-b0bf-bc422e1d6980",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcdf25aa-48a8-48f6-93f7-ee489457c91c",
+        "date": "2023-10-04T08:58:55.292Z",
+        "status": "In Progress",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-03T22:56:22.816Z",
+        "updated_at": "2023-10-03T16:54:44.307Z",
+        "car_id": "cdaddf48-7e02-4e26-ab40-54a8489c38f9",
+        "service_id": "92840fc2-f35e-4460-b405-fb4251cbe9c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f9cc329-fd95-4695-8389-ede3602f7221",
+        "date": "2023-10-04T07:08:01.051Z",
+        "status": "Completed",
+        "notes": "Bring any necessary documents",
+        "created_at": "2023-10-04T07:08:26.856Z",
+        "updated_at": "2023-10-04T00:44:25.658Z",
+        "car_id": "3c841c9e-bf22-4042-ad52-59f7cde91356",
+        "service_id": "37f36d4b-d4d1-4d6a-9f57-18d99af3def4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf222d43-91fc-4bdc-8878-16c219c2e263",
+        "date": "2023-10-03T17:27:57.722Z",
+        "status": "Cancelled",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-10-04T07:17:40.109Z",
+        "updated_at": "2023-10-04T10:23:01.504Z",
+        "car_id": "cdaddf48-7e02-4e26-ab40-54a8489c38f9",
+        "service_id": "e744d66a-c181-4d4e-9da8-8367fcc02d6e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "43e5b533-cefb-40a8-affd-14b1fee31667",
+        "total_cost": 66539,
+        "paid": false,
+        "payment_date": "2023-10-04T01:02:09.961Z",
+        "created_at": "2023-10-04T10:57:27.893Z",
+        "updated_at": "2023-10-03T15:16:34.394Z",
+        "appointment_id": "bf222d43-91fc-4bdc-8878-16c219c2e263",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97615334-fde6-4dd5-9316-70c010b24ea1",
+        "total_cost": 74786,
+        "paid": false,
+        "payment_date": "2023-10-04T01:11:07.594Z",
+        "created_at": "2023-10-03T21:03:06.668Z",
+        "updated_at": "2023-10-04T02:14:01.424Z",
+        "appointment_id": "517ec45c-c56a-462b-b1f9-7b117e352620",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb376f7c-a494-4068-b291-73c8a9cb6311",
+        "total_cost": 83076,
+        "paid": true,
+        "payment_date": "2023-10-03T18:09:05.665Z",
+        "created_at": "2023-10-04T10:06:25.710Z",
+        "updated_at": "2023-10-03T14:22:51.127Z",
+        "appointment_id": "bf222d43-91fc-4bdc-8878-16c219c2e263",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a6efcb4-6206-4548-b738-7fd1d15a2677",
+        "total_cost": 55726,
+        "paid": true,
+        "payment_date": "2023-10-04T08:25:13.720Z",
+        "created_at": "2023-10-03T19:39:51.929Z",
+        "updated_at": "2023-10-03T11:23:37.639Z",
+        "appointment_id": "dcdf25aa-48a8-48f6-93f7-ee489457c91c",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d8f91b5-80a6-4ca9-80b2-afec94621228",
+        "total_cost": 33892,
+        "paid": true,
+        "payment_date": "2023-10-03T13:47:10.881Z",
+        "created_at": "2023-10-03T21:13:23.286Z",
+        "updated_at": "2023-10-04T02:29:56.270Z",
+        "appointment_id": "517ec45c-c56a-462b-b1f9-7b117e352620",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d55b3f7-d5fe-4e4e-908d-2a21b0c37c1c",
+        "email": "Jasmin38@roq.tech",
+        "firstName": "Amira",
+        "lastName": "Brakus-Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89829445",
+        "tenantId": null
+      },
+      {
+        "reference": "43f01d9d-17d6-4895-9e9f-03d189cfa106",
+        "email": "Dillon.Shields@roq.tech",
+        "firstName": "Colin",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11828820",
+        "tenantId": null
+      },
+      {
+        "reference": "1d9ecace-a323-4173-89db-573d5cbcff29",
+        "email": "Luz_Connelly@roq.tech",
+        "firstName": "Elsie",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/277.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e59acbd-b787-4862-90cf-a7230e3cda36",
+        "email": "Norwood75@roq.tech",
+        "firstName": "Una",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97ef206d-58f9-4bad-94d8-60e7fda782c2",
+        "email": "Tevin21@roq.tech",
+        "firstName": "Pamela",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/239.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "5e8d39dc-11dc-4c3d-a72b-77031f1691cd",
+        "name": "Web Design",
+        "description": "Custom website design and development",
+        "cost": 30968,
+        "duration": 62443,
+        "created_at": "2023-10-04T03:56:52.948Z",
+        "updated_at": "2023-10-04T02:23:36.010Z",
+        "service_type": "IT Services",
+        "product_type": "Software",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "213e356f-c1ed-4fb0-a15a-69fc7f9393a1",
+        "name": "Mobile App Development",
+        "description": "Creating user-friendly mobile applications",
+        "cost": 91826,
+        "duration": 91504,
+        "created_at": "2023-10-03T20:06:21.684Z",
+        "updated_at": "2023-10-03T23:37:08.914Z",
+        "service_type": "Consulting",
+        "product_type": "Hardware",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc2c34ac-5962-426a-a0e6-08300df42d12",
+        "name": "Digital Marketing",
+        "description": "Strategic online marketing campaigns",
+        "cost": 60491,
+        "duration": 28280,
+        "created_at": "2023-10-04T02:18:19.865Z",
+        "updated_at": "2023-10-04T07:51:42.372Z",
+        "service_type": "Marketing",
+        "product_type": "Digital",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3049e5f6-a3fd-4df2-85fa-7e14971edb66",
+        "name": "Cloud Consulting",
+        "description": "Optimizing cloud infrastructure",
+        "cost": 28318,
+        "duration": 307,
+        "created_at": "2023-10-03T21:36:27.575Z",
+        "updated_at": "2023-10-03T21:38:26.251Z",
+        "service_type": "Design",
+        "product_type": "Consulting",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc761026-c8fe-4589-af68-c0a553a075b4",
+        "name": "Data Analytics",
+        "description": "Analyzing and interpreting data for business insights",
+        "cost": 47515,
+        "duration": 68649,
+        "created_at": "2023-10-04T07:52:44.339Z",
+        "updated_at": "2023-10-03T11:22:10.504Z",
+        "service_type": "Analytics",
+        "product_type": "Analytics",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d789f496-d2c7-483c-babb-fe820ce729c2",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 91326,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-04T06:47:13.302Z",
+        "updated_at": "2023-10-03T12:08:25.235Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30ef472e-c4e4-4a8e-becc-ce44f28a230e",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 33826,
+        "vin": "2T1BR32E54C123456",
+        "color": "Blue",
+        "created_at": "2023-10-03T21:12:57.713Z",
+        "updated_at": "2023-10-03T21:44:26.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f26e8281-f72b-444c-a3d1-e56d0c57ef3b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 47911,
+        "vin": "1FAFP42X92F123456",
+        "color": "Black",
+        "created_at": "2023-10-03T22:45:23.176Z",
+        "updated_at": "2023-10-04T02:22:28.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d813eb63-455e-4b34-9353-92ed2f6b31cd",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 77129,
+        "vin": "1GCHK29U82E123456",
+        "color": "Silver",
+        "created_at": "2023-10-03T14:18:39.960Z",
+        "updated_at": "2023-10-04T09:08:54.955Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eca8d2b9-59d0-4f54-b776-4f29961333ad",
+        "make": "BMW",
+        "model": "X5",
+        "year": 78940,
+        "vin": "5UXFA13565LY12345",
+        "color": "White",
+        "created_at": "2023-10-03T21:59:23.277Z",
+        "updated_at": "2023-10-03T19:44:42.763Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9fa1e2ac-9c26-43ec-88aa-2dc5870e636e",
+        "date": "2023-10-04T02:46:46.323Z",
+        "status": "Scheduled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-10-04T01:40:04.091Z",
+        "updated_at": "2023-10-04T04:40:35.070Z",
+        "car_id": "d813eb63-455e-4b34-9353-92ed2f6b31cd",
+        "service_id": "213e356f-c1ed-4fb0-a15a-69fc7f9393a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6929cf8b-0362-4191-96a6-38ba65bd583c",
+        "date": "2023-10-04T05:49:17.505Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-03T13:51:31.374Z",
+        "updated_at": "2023-10-03T17:27:21.539Z",
+        "car_id": "f26e8281-f72b-444c-a3d1-e56d0c57ef3b",
+        "service_id": "cc2c34ac-5962-426a-a0e6-08300df42d12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c98b858a-398d-4e42-83f8-9b80357353dd",
+        "date": "2023-10-03T11:21:08.210Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-03T18:15:54.886Z",
+        "updated_at": "2023-10-03T12:29:24.549Z",
+        "car_id": "f26e8281-f72b-444c-a3d1-e56d0c57ef3b",
+        "service_id": "213e356f-c1ed-4fb0-a15a-69fc7f9393a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "737d9718-223a-4f2d-851c-4af763599fdc",
+        "date": "2023-10-03T11:54:17.502Z",
+        "status": "Cancelled",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-10-03T15:49:49.433Z",
+        "updated_at": "2023-10-03T17:36:04.992Z",
+        "car_id": "d813eb63-455e-4b34-9353-92ed2f6b31cd",
+        "service_id": "cc761026-c8fe-4589-af68-c0a553a075b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d28bd62-41e6-403c-b339-00783a21e50a",
+        "date": "2023-10-04T03:29:38.081Z",
+        "status": "Rescheduled",
+        "notes": "Additional information may be needed",
+        "created_at": "2023-10-04T00:14:42.638Z",
+        "updated_at": "2023-10-03T16:50:15.122Z",
+        "car_id": "30ef472e-c4e4-4a8e-becc-ce44f28a230e",
+        "service_id": "5e8d39dc-11dc-4c3d-a72b-77031f1691cd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "ea237c0a-c74b-45c3-bc59-be43ddd94218",
+        "total_cost": 30183,
+        "paid": false,
+        "payment_date": "2023-10-04T09:34:10.395Z",
+        "created_at": "2023-10-03T23:17:08.399Z",
+        "updated_at": "2023-10-04T02:17:24.160Z",
+        "appointment_id": "9fa1e2ac-9c26-43ec-88aa-2dc5870e636e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "639ea9ca-5fb2-4352-8998-7f27403d8432",
+        "total_cost": 60837,
+        "paid": false,
+        "payment_date": "2023-10-04T00:03:02.322Z",
+        "created_at": "2023-10-04T06:39:52.917Z",
+        "updated_at": "2023-10-03T17:36:15.615Z",
+        "appointment_id": "9fa1e2ac-9c26-43ec-88aa-2dc5870e636e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdd1188f-fe79-48a0-828c-5d081924c6f2",
+        "total_cost": 86886,
+        "paid": true,
+        "payment_date": "2023-10-03T15:09:33.224Z",
+        "created_at": "2023-10-04T06:07:54.595Z",
+        "updated_at": "2023-10-03T20:32:43.348Z",
+        "appointment_id": "9fa1e2ac-9c26-43ec-88aa-2dc5870e636e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c34372-252b-4ac6-a250-18925e89848a",
+        "total_cost": 49108,
+        "paid": false,
+        "payment_date": "2023-10-04T05:58:15.752Z",
+        "created_at": "2023-10-03T19:29:44.036Z",
+        "updated_at": "2023-10-03T13:22:04.057Z",
+        "appointment_id": "c98b858a-398d-4e42-83f8-9b80357353dd",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c5960c6-5707-4a75-85d3-7132acd6fe11",
+        "total_cost": 66345,
+        "paid": true,
+        "payment_date": "2023-10-04T07:23:06.550Z",
+        "created_at": "2023-10-03T19:03:16.412Z",
+        "updated_at": "2023-10-04T00:10:43.485Z",
+        "appointment_id": "6929cf8b-0362-4191-96a6-38ba65bd583c",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d202747-138d-4d0b-b6d8-72989861152d",
+        "email": "Delores_Kuhn87@roq.tech",
+        "firstName": "Mittie",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/819.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b96c8cc-ca7a-4a65-a323-7111fbbd8073",
+        "email": "Sheridan81@roq.tech",
+        "firstName": "Tyrese",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/906.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8e967a2-e9a0-4749-9199-5dce783fec73",
+        "email": "Sedrick0@roq.tech",
+        "firstName": "Emanuel",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/834.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b28ab2d-b4e4-4915-a700-89e6ca97e7f4",
+        "email": "Everette57@roq.tech",
+        "firstName": "Jordon",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12529955",
+        "tenantId": null
+      },
+      {
+        "reference": "cc36ac23-2989-4786-aa21-5c64c9fbb9f7",
+        "email": "Americo_Ankunding41@roq.tech",
+        "firstName": "Santina",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2694566",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "51dd0699-f5b4-4a91-be3e-e2be36b023a9",
+        "name": "Web Development",
+        "description": "Customized solutions for your business",
+        "cost": 70461,
+        "duration": 67506,
+        "created_at": "2023-10-03T16:42:01.268Z",
+        "updated_at": "2023-10-03T11:18:30.334Z",
+        "service_type": "Software Development",
+        "product_type": "Web Applications",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41ad06ff-d6bc-46ad-bad5-ce0cdbea3129",
+        "name": "Graphic Design",
+        "description": "Creative and impactful designs",
+        "cost": 65685,
+        "duration": 15322,
+        "created_at": "2023-10-03T19:39:43.209Z",
+        "updated_at": "2023-10-03T14:05:19.758Z",
+        "service_type": "Creative Services",
+        "product_type": "Print Designs",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3a717224-581c-4d91-8649-48c8f155b99c",
+        "name": "Marketing Strategy",
+        "description": "Effective marketing campaigns",
+        "cost": 97999,
+        "duration": 47736,
+        "created_at": "2023-10-04T03:38:01.517Z",
+        "updated_at": "2023-10-04T04:16:33.977Z",
+        "service_type": "Marketing",
+        "product_type": "Digital Advertising",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "68105387-e4c2-4dae-98ec-210c2e37c222",
+        "name": "IT Consulting",
+        "description": "Expert advice for your IT needs",
+        "cost": 73006,
+        "duration": 72681,
+        "created_at": "2023-10-04T02:21:41.649Z",
+        "updated_at": "2023-10-03T20:27:30.141Z",
+        "service_type": "Consulting",
+        "product_type": "IT Services",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a97e1f6a-330c-4403-91ff-612d67d758ab",
+        "name": "Data Analysis",
+        "description": "In-depth analysis for data-driven decisions",
+        "cost": 31611,
+        "duration": 14774,
+        "created_at": "2023-10-03T20:14:06.044Z",
+        "updated_at": "2023-10-03T13:07:01.465Z",
+        "service_type": "Analytics",
+        "product_type": "Business Intelligence",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d4c4b118-5b47-4fe9-8426-3ff636d89d5f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 5108,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-03T14:19:06.622Z",
+        "updated_at": "2023-10-04T03:54:59.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "839ee9b1-7670-4bc7-862e-4744c2ab3532",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 34445,
+        "vin": "2T1BURHE5FC123456",
+        "color": "Blue",
+        "created_at": "2023-10-04T06:10:52.978Z",
+        "updated_at": "2023-10-03T12:59:14.746Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11bf0134-4af2-47dc-9dba-a4916bf02235",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 91508,
+        "vin": "1FAFP42X72F123456",
+        "color": "Black",
+        "created_at": "2023-10-03T23:19:49.122Z",
+        "updated_at": "2023-10-03T12:06:17.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a84569a3-b1da-49ba-b265-63ebe5989447",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 37729,
+        "vin": "1GCEC14VX4Z123456",
+        "color": "White",
+        "created_at": "2023-10-03T11:26:47.592Z",
+        "updated_at": "2023-10-04T04:47:56.746Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d82c3d2a-9751-4978-9ec5-94478757c8c3",
+        "make": "BMW",
+        "model": "X5",
+        "year": 59229,
+        "vin": "5UXKR6C54E0R123456",
+        "color": "Silver",
+        "created_at": "2023-10-03T19:09:50.564Z",
+        "updated_at": "2023-10-04T09:40:49.200Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "fd684d43-8bde-4a66-909a-b558271fb342",
+        "date": "2023-10-04T07:04:05.195Z",
+        "status": "Confirmed",
+        "notes": "Please bring all necessary documents",
+        "created_at": "2023-10-04T03:14:41.234Z",
+        "updated_at": "2023-10-04T00:53:24.958Z",
+        "car_id": "839ee9b1-7670-4bc7-862e-4744c2ab3532",
+        "service_id": "68105387-e4c2-4dae-98ec-210c2e37c222",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a89f972-9768-4583-af4a-0771c6cd5c82",
+        "date": "2023-10-04T02:53:27.553Z",
+        "status": "Pending",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-04T02:56:51.146Z",
+        "updated_at": "2023-10-03T16:43:47.709Z",
+        "car_id": "a84569a3-b1da-49ba-b265-63ebe5989447",
+        "service_id": "3a717224-581c-4d91-8649-48c8f155b99c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "205b6c11-27a2-40b6-b1a1-7130524a3769",
+        "date": "2023-10-04T01:20:19.650Z",
+        "status": "Cancelled",
+        "notes": "Payment due at the time of service",
+        "created_at": "2023-10-04T04:48:55.226Z",
+        "updated_at": "2023-10-03T22:15:31.017Z",
+        "car_id": "a84569a3-b1da-49ba-b265-63ebe5989447",
+        "service_id": "68105387-e4c2-4dae-98ec-210c2e37c222",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34b6d0dc-e329-492d-b46a-1b28c58e576f",
+        "date": "2023-10-03T21:33:55.247Z",
+        "status": "Completed",
+        "notes": "Follow-up appointment scheduled",
+        "created_at": "2023-10-04T10:27:30.640Z",
+        "updated_at": "2023-10-03T13:05:01.310Z",
+        "car_id": "d4c4b118-5b47-4fe9-8426-3ff636d89d5f",
+        "service_id": "a97e1f6a-330c-4403-91ff-612d67d758ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7fd43f5-1d49-45df-954c-c20ef9edf03e",
+        "date": "2023-10-03T12:11:13.175Z",
+        "status": "Rescheduled",
+        "notes": "Additional information required",
+        "created_at": "2023-10-04T01:36:45.610Z",
+        "updated_at": "2023-10-03T16:54:53.339Z",
+        "car_id": "d4c4b118-5b47-4fe9-8426-3ff636d89d5f",
+        "service_id": "41ad06ff-d6bc-46ad-bad5-ce0cdbea3129",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "9b8429ab-83e9-4e92-b6c6-da0f3e0925a7",
+        "total_cost": 19079,
+        "paid": false,
+        "payment_date": "2023-10-03T21:15:31.442Z",
+        "created_at": "2023-10-03T11:35:03.719Z",
+        "updated_at": "2023-10-03T16:04:37.684Z",
+        "appointment_id": "f7fd43f5-1d49-45df-954c-c20ef9edf03e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e94782ef-ed96-4cd1-a1aa-f16a8399cf44",
+        "total_cost": 79210,
+        "paid": false,
+        "payment_date": "2023-10-03T18:22:49.980Z",
+        "created_at": "2023-10-03T21:20:25.475Z",
+        "updated_at": "2023-10-03T16:14:03.003Z",
+        "appointment_id": "fd684d43-8bde-4a66-909a-b558271fb342",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bfddf39-ae50-4f55-b530-fc80057414f7",
+        "total_cost": 27271,
+        "paid": true,
+        "payment_date": "2023-10-03T23:33:17.874Z",
+        "created_at": "2023-10-04T04:22:48.855Z",
+        "updated_at": "2023-10-03T17:02:49.435Z",
+        "appointment_id": "fd684d43-8bde-4a66-909a-b558271fb342",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d404883e-e141-4bbf-a746-973bd34e2ed8",
+        "total_cost": 26567,
+        "paid": false,
+        "payment_date": "2023-10-03T18:49:49.472Z",
+        "created_at": "2023-10-03T22:13:44.251Z",
+        "updated_at": "2023-10-03T22:14:43.190Z",
+        "appointment_id": "f7fd43f5-1d49-45df-954c-c20ef9edf03e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e8bb93d-bea0-48a3-9863-5f55e6970d66",
+        "total_cost": 21723,
+        "paid": true,
+        "payment_date": "2023-10-04T06:27:59.900Z",
+        "created_at": "2023-10-03T19:32:51.371Z",
+        "updated_at": "2023-10-03T20:14:48.516Z",
+        "appointment_id": "f7fd43f5-1d49-45df-954c-c20ef9edf03e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e1645621-cb7e-407c-9746-6fcb66007c97",
+        "email": "Terrell.Marks14@roq.tech",
+        "firstName": "Isadore",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1065.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5672d151-8c34-4963-86f8-1107beb368df",
+        "email": "Bailey_Thiel@roq.tech",
+        "firstName": "Charlene",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71391326",
+        "tenantId": null
+      },
+      {
+        "reference": "bb2528f7-41da-428e-8e93-24b76b6f90b4",
+        "email": "Kirsten.Schiller@roq.tech",
+        "firstName": "Maxime",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67960",
+        "tenantId": null
+      },
+      {
+        "reference": "57047ddb-ab68-498e-9011-044af3d7a541",
+        "email": "Jamel.Vandervort@roq.tech",
+        "firstName": "Franco",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56595777",
+        "tenantId": null
+      },
+      {
+        "reference": "5a6600e8-5988-42d5-91f7-e83a3c70724b",
+        "email": "Johann_Jakubowski15@roq.tech",
+        "firstName": "Albin",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10663761",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "179ccf5d-fa20-4b6c-8c8d-19a5b5094cf0",
+        "name": "Web Development",
+        "description": "Customized solutions for your business needs",
+        "cost": 40608,
+        "duration": 15026,
+        "created_at": "2023-10-03T18:32:44.325Z",
+        "updated_at": "2023-10-04T03:05:48.157Z",
+        "service_type": "Software Development",
+        "product_type": "Web Application",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "af618337-aa96-4647-a462-89802b32ca7f",
+        "name": "Mobile App Development",
+        "description": "Cutting-edge technology to drive growth",
+        "cost": 81377,
+        "duration": 19368,
+        "created_at": "2023-10-04T06:47:19.072Z",
+        "updated_at": "2023-10-04T09:34:40.172Z",
+        "service_type": "Consulting",
+        "product_type": "Mobile Application",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3cc30bd8-0137-4aa1-879e-ca292babd963",
+        "name": "Cloud Consulting",
+        "description": "Expert advice to optimize your operations",
+        "cost": 62523,
+        "duration": 31325,
+        "created_at": "2023-10-04T07:52:15.310Z",
+        "updated_at": "2023-10-04T07:57:23.668Z",
+        "service_type": "Analytics",
+        "product_type": "Cloud Solution",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3d527f24-cb2b-437b-b0d8-b5ca69cab7cd",
+        "name": "Data Analytics",
+        "description": "Actionable insights from your data",
+        "cost": 85725,
+        "duration": 62571,
+        "created_at": "2023-10-04T05:20:32.517Z",
+        "updated_at": "2023-10-03T11:21:11.818Z",
+        "service_type": "Security",
+        "product_type": "Data Platform",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6db48bf8-8850-4dad-9d3d-eb6085b4a71e",
+        "name": "Cybersecurity",
+        "description": "Protecting your digital assets",
+        "cost": 70610,
+        "duration": 6313,
+        "created_at": "2023-10-04T00:10:30.737Z",
+        "updated_at": "2023-10-03T13:16:56.256Z",
+        "service_type": "Design",
+        "product_type": "Network Security",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "22055330-9797-4ddd-9260-4b714707ef75",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 8546,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-04T10:48:03.019Z",
+        "updated_at": "2023-10-03T20:09:28.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f669f7e8-0866-414a-9e0e-c64750cc0c5b",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 87906,
+        "vin": "2T1BURHE1KC123456",
+        "color": "Blue",
+        "created_at": "2023-10-04T08:19:28.372Z",
+        "updated_at": "2023-10-03T15:23:21.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc60cb47-3ea9-484d-9874-71e678085ee0",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 56284,
+        "vin": "1FAFP45X41F123456",
+        "color": "Black",
+        "created_at": "2023-10-04T10:43:55.800Z",
+        "updated_at": "2023-10-03T12:26:45.558Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30de25df-0424-4365-bf89-042e627f86ec",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 8935,
+        "vin": "1GCHK29U01E123456",
+        "color": "White",
+        "created_at": "2023-10-03T15:39:25.603Z",
+        "updated_at": "2023-10-03T16:36:26.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc483e84-a1f8-4a24-afef-9142647a293c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 62042,
+        "vin": "5UXKR0C50H0V12345",
+        "color": "Silver",
+        "created_at": "2023-10-03T22:54:01.912Z",
+        "updated_at": "2023-10-03T20:12:13.742Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "79ca3d26-bae5-4a88-93b3-57c9d4514a4e",
+        "date": "2023-10-04T05:18:10.546Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID",
+        "created_at": "2023-10-04T10:36:56.583Z",
+        "updated_at": "2023-10-03T20:04:46.119Z",
+        "car_id": "f669f7e8-0866-414a-9e0e-c64750cc0c5b",
+        "service_id": "af618337-aa96-4647-a462-89802b32ca7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecf3b0c4-ff45-45e0-a623-a24f5b7157f0",
+        "date": "2023-10-04T00:51:27.713Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-03T19:03:38.255Z",
+        "updated_at": "2023-10-03T18:35:36.488Z",
+        "car_id": "f669f7e8-0866-414a-9e0e-c64750cc0c5b",
+        "service_id": "3d527f24-cb2b-437b-b0d8-b5ca69cab7cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cbbec9c-0ec5-4aba-be6e-6269ba36262c",
+        "date": "2023-10-03T18:02:43.830Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-03T23:25:24.688Z",
+        "updated_at": "2023-10-03T17:04:59.622Z",
+        "car_id": "30de25df-0424-4365-bf89-042e627f86ec",
+        "service_id": "3cc30bd8-0137-4aa1-879e-ca292babd963",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a787c8b6-2568-48af-b801-b25c22b224a6",
+        "date": "2023-10-03T23:59:00.838Z",
+        "status": "Cancelled",
+        "notes": "Call to confirm your availability",
+        "created_at": "2023-10-04T03:49:53.735Z",
+        "updated_at": "2023-10-03T16:02:47.809Z",
+        "car_id": "22055330-9797-4ddd-9260-4b714707ef75",
+        "service_id": "3cc30bd8-0137-4aa1-879e-ca292babd963",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c41b9eb3-6c98-48ad-a169-5f908b7f2ece",
+        "date": "2023-10-03T14:58:57.070Z",
+        "status": "Rescheduled",
+        "notes": "Additional paperwork required",
+        "created_at": "2023-10-03T13:24:57.546Z",
+        "updated_at": "2023-10-03T23:54:46.411Z",
+        "car_id": "fc483e84-a1f8-4a24-afef-9142647a293c",
+        "service_id": "3d527f24-cb2b-437b-b0d8-b5ca69cab7cd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "6e4ca6a0-cf5b-42f8-aed5-bd22df076cd0",
+        "total_cost": 15104,
+        "paid": false,
+        "payment_date": "2023-10-04T08:27:15.564Z",
+        "created_at": "2023-10-04T01:28:17.622Z",
+        "updated_at": "2023-10-04T03:30:57.037Z",
+        "appointment_id": "5cbbec9c-0ec5-4aba-be6e-6269ba36262c",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aca694cc-8cd8-41f3-bb28-faadaf6b8a71",
+        "total_cost": 53136,
+        "paid": true,
+        "payment_date": "2023-10-04T06:23:18.055Z",
+        "created_at": "2023-10-04T04:23:20.455Z",
+        "updated_at": "2023-10-04T09:51:53.242Z",
+        "appointment_id": "79ca3d26-bae5-4a88-93b3-57c9d4514a4e",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b69b5b30-80c7-4a0d-a2d6-f89d7411bc5e",
+        "total_cost": 72694,
+        "paid": false,
+        "payment_date": "2023-10-03T14:21:29.449Z",
+        "created_at": "2023-10-03T15:36:23.741Z",
+        "updated_at": "2023-10-03T19:17:45.559Z",
+        "appointment_id": "5cbbec9c-0ec5-4aba-be6e-6269ba36262c",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e61595dd-24c6-4f1f-a073-8786472ac431",
+        "total_cost": 82756,
+        "paid": true,
+        "payment_date": "2023-10-03T17:32:36.038Z",
+        "created_at": "2023-10-03T15:09:12.693Z",
+        "updated_at": "2023-10-04T06:08:51.305Z",
+        "appointment_id": "c41b9eb3-6c98-48ad-a169-5f908b7f2ece",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3ca81e5-c563-4270-a001-3a5debf1661a",
+        "total_cost": 71155,
+        "paid": true,
+        "payment_date": "2023-10-04T08:00:53.421Z",
+        "created_at": "2023-10-04T06:39:01.554Z",
+        "updated_at": "2023-10-04T03:13:03.862Z",
+        "appointment_id": "a787c8b6-2568-48af-b801-b25c22b224a6",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "77a41ff4-70d6-4a9f-8421-5f3b16614587",
+        "email": "Lance_Gleason27@roq.tech",
+        "firstName": "Anjali",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/56.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10305d19-824a-4420-a9cc-22bf0dedbe3e",
+        "email": "Chelsey.Volkman24@roq.tech",
+        "firstName": "Tracey",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11199203",
+        "tenantId": null
+      },
+      {
+        "reference": "6c24d718-6f69-4c5a-bc40-99bb7df38519",
+        "email": "Wava37@roq.tech",
+        "firstName": "Zachariah",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/407.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d123b4fe-8515-45af-b944-8015bd52ada6",
+        "email": "Russ40@roq.tech",
+        "firstName": "Reuben",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/365.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "113fe47d-8aea-4540-84c5-ef6a29250166",
+        "email": "Neal.McDermott10@roq.tech",
+        "firstName": "Monty",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/696.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "8f4b873b-91aa-4f95-8171-f6902ec4ec9c",
+        "name": "Web Development",
+        "description": "Professional website development services",
+        "cost": 89433,
+        "duration": 63512,
+        "created_at": "2023-10-04T09:06:52.893Z",
+        "updated_at": "2023-10-03T14:13:37.716Z",
+        "service_type": "Software",
+        "product_type": "Web Application",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c271193b-5342-4160-b828-4e71afcad275",
+        "name": "Graphic Design",
+        "description": "Creative design solutions for businesses",
+        "cost": 878,
+        "duration": 78561,
+        "created_at": "2023-10-03T22:06:34.342Z",
+        "updated_at": "2023-10-03T11:53:14.851Z",
+        "service_type": "Design",
+        "product_type": "Logo Design",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "189f0b5c-a0ac-46ed-9c29-190e46ac636d",
+        "name": "Marketing Strategy",
+        "description": "Strategic marketing planning and execution",
+        "cost": 34665,
+        "duration": 86136,
+        "created_at": "2023-10-03T15:51:48.481Z",
+        "updated_at": "2023-10-03T19:34:55.849Z",
+        "service_type": "Marketing",
+        "product_type": "Digital Advertising",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "747985f7-f31f-4638-960e-151104965527",
+        "name": "IT Consulting",
+        "description": "Expert IT consulting services",
+        "cost": 36118,
+        "duration": 99739,
+        "created_at": "2023-10-03T12:10:18.284Z",
+        "updated_at": "2023-10-04T04:24:14.140Z",
+        "service_type": "Consulting",
+        "product_type": "IT Infrastructure",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8b331c99-1a37-4fc4-8785-3f3b2c891201",
+        "name": "Data Analysis",
+        "description": "Data-driven insights and analysis",
+        "cost": 82128,
+        "duration": 17192,
+        "created_at": "2023-10-04T09:57:57.643Z",
+        "updated_at": "2023-10-03T20:03:19.009Z",
+        "service_type": "Analytics",
+        "product_type": "Business Intelligence",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "83cfd7ea-bd7d-4a11-83b0-7545fdb00c27",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 77088,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-04T04:19:39.895Z",
+        "updated_at": "2023-10-04T10:45:33.984Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4ddef89-8346-46af-89cf-19ae1ea5d441",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 44081,
+        "vin": "2T1BURHE9FC123456",
+        "color": "Blue",
+        "created_at": "2023-10-03T14:33:36.575Z",
+        "updated_at": "2023-10-04T07:21:46.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff6fab64-c13b-4ca6-82f8-7689f07eb788",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 84793,
+        "vin": "1FA6P8CF2F5324567",
+        "color": "Black",
+        "created_at": "2023-10-04T04:05:50.763Z",
+        "updated_at": "2023-10-03T19:28:06.149Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10394dba-d0a4-4c85-befc-f9fd110dde1d",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 71800,
+        "vin": "3GCUKREC0FG123456",
+        "color": "White",
+        "created_at": "2023-10-03T11:57:20.166Z",
+        "updated_at": "2023-10-04T03:26:13.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f2b4955-4409-4b8c-bff7-d87749c31881",
+        "make": "BMW",
+        "model": "X5",
+        "year": 45407,
+        "vin": "5UXKR0C51H0123456",
+        "color": "Silver",
+        "created_at": "2023-10-04T03:10:02.085Z",
+        "updated_at": "2023-10-04T03:13:00.250Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8a56b13a-73ed-451e-906e-17ee6ebd6b23",
+        "date": "2023-10-03T14:28:56.540Z",
+        "status": "Scheduled",
+        "notes": "Please bring any relevant documents",
+        "created_at": "2023-10-04T11:00:16.457Z",
+        "updated_at": "2023-10-03T11:17:44.643Z",
+        "car_id": "ff6fab64-c13b-4ca6-82f8-7689f07eb788",
+        "service_id": "8f4b873b-91aa-4f95-8171-f6902ec4ec9c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8442b831-af84-4f9c-a3fa-0700c3ae2053",
+        "date": "2023-10-04T00:44:58.005Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-03T19:57:23.382Z",
+        "updated_at": "2023-10-03T16:30:13.070Z",
+        "car_id": "83cfd7ea-bd7d-4a11-83b0-7545fdb00c27",
+        "service_id": "747985f7-f31f-4638-960e-151104965527",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9259974-1033-4670-bf99-5e726b2e1ed5",
+        "date": "2023-10-03T19:40:36.266Z",
+        "status": "In Progress",
+        "notes": "Payment due at the time of service",
+        "created_at": "2023-10-04T07:10:42.207Z",
+        "updated_at": "2023-10-03T23:02:56.024Z",
+        "car_id": "ff6fab64-c13b-4ca6-82f8-7689f07eb788",
+        "service_id": "8b331c99-1a37-4fc4-8785-3f3b2c891201",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a79ef4a-583c-43fd-a29f-0da70321cf01",
+        "date": "2023-10-04T05:51:57.428Z",
+        "status": "Completed",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-10-03T20:34:46.353Z",
+        "updated_at": "2023-10-04T04:01:04.673Z",
+        "car_id": "d4ddef89-8346-46af-89cf-19ae1ea5d441",
+        "service_id": "8b331c99-1a37-4fc4-8785-3f3b2c891201",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bee53b62-5f9b-44a2-bd3c-b471e7aebdc1",
+        "date": "2023-10-04T04:33:09.994Z",
+        "status": "Cancelled",
+        "notes": "Valid ID required",
+        "created_at": "2023-10-04T02:22:01.458Z",
+        "updated_at": "2023-10-03T15:44:16.550Z",
+        "car_id": "10394dba-d0a4-4c85-befc-f9fd110dde1d",
+        "service_id": "8f4b873b-91aa-4f95-8171-f6902ec4ec9c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "e0dc6bdf-d64f-4560-a598-fb4d2deac88e",
+        "total_cost": 48109,
+        "paid": false,
+        "payment_date": "2023-10-03T16:24:24.064Z",
+        "created_at": "2023-10-04T07:10:43.253Z",
+        "updated_at": "2023-10-04T09:12:12.697Z",
+        "appointment_id": "b9259974-1033-4670-bf99-5e726b2e1ed5",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "295a564f-ecaf-4886-9acc-d3818e7efbb8",
+        "total_cost": 12333,
+        "paid": false,
+        "payment_date": "2023-10-04T04:03:11.321Z",
+        "created_at": "2023-10-04T05:53:53.195Z",
+        "updated_at": "2023-10-03T17:56:40.556Z",
+        "appointment_id": "9a79ef4a-583c-43fd-a29f-0da70321cf01",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0416cbfb-6e79-4be4-bd37-b66a6bf24837",
+        "total_cost": 73352,
+        "paid": true,
+        "payment_date": "2023-10-04T03:07:58.776Z",
+        "created_at": "2023-10-03T12:02:58.365Z",
+        "updated_at": "2023-10-04T00:30:09.748Z",
+        "appointment_id": "9a79ef4a-583c-43fd-a29f-0da70321cf01",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f7b0dd8-c4c3-41e9-9299-b9f95d8c71d9",
+        "total_cost": 14664,
+        "paid": false,
+        "payment_date": "2023-10-03T11:33:19.284Z",
+        "created_at": "2023-10-04T09:55:20.176Z",
+        "updated_at": "2023-10-03T23:01:13.261Z",
+        "appointment_id": "8a56b13a-73ed-451e-906e-17ee6ebd6b23",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "979decd0-d0e3-4c6a-a95e-353201b01f13",
+        "total_cost": 39326,
+        "paid": false,
+        "payment_date": "2023-10-03T13:06:11.447Z",
+        "created_at": "2023-10-03T19:30:43.337Z",
+        "updated_at": "2023-10-03T20:01:11.218Z",
+        "appointment_id": "9a79ef4a-583c-43fd-a29f-0da70321cf01",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d855edce-2abd-47e5-a3de-af3e3262b294",
+        "email": "Heloise_Greenfelder-Jacobs@roq.tech",
+        "firstName": "Mariah",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cc07dae-32a8-406c-8078-49b507250e2d",
+        "email": "Mae.Huels21@roq.tech",
+        "firstName": "Marian",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39779198",
+        "tenantId": null
+      },
+      {
+        "reference": "0dc457eb-c336-40b6-9ffb-070adebea202",
+        "email": "Leora.Smith9@roq.tech",
+        "firstName": "Oceane",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/409.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3667d0ce-00d6-42f8-ab81-04b8e911060d",
+        "email": "Constantin51@roq.tech",
+        "firstName": "Carlee",
+        "lastName": "Mraz-Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/527.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc8409b5-e853-4e57-a67e-f23ed9a6d799",
+        "email": "Shaina38@roq.tech",
+        "firstName": "Edna",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/773.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "b5b6bf1c-9de3-4939-bd25-10d8bb61ca60",
+        "name": "Website Development",
+        "description": "Professional website development services",
+        "cost": 62537,
+        "duration": 79443,
+        "created_at": "2023-10-03T16:08:17.127Z",
+        "updated_at": "2023-10-04T06:45:30.474Z",
+        "service_type": "Web Design",
+        "product_type": "Software",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "786ba089-fc91-4c03-9bea-314dca0fc320",
+        "name": "Graphic Design",
+        "description": "Creative graphic design solutions",
+        "cost": 54937,
+        "duration": 64781,
+        "created_at": "2023-10-04T02:38:58.294Z",
+        "updated_at": "2023-10-04T08:58:30.958Z",
+        "service_type": "Digital Marketing",
+        "product_type": "Hardware",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f3012e5-c1e5-41df-90e6-7cf3d82b058a",
+        "name": "Marketing Consulting",
+        "description": "Expert marketing consulting advice",
+        "cost": 4399,
+        "duration": 25674,
+        "created_at": "2023-10-04T04:30:27.371Z",
+        "updated_at": "2023-10-04T06:15:29.394Z",
+        "service_type": "Consulting",
+        "product_type": "Consulting",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ef61608f-6784-4edb-93e5-24a6af23ed81",
+        "name": "Mobile App Development",
+        "description": "Innovative mobile app development",
+        "cost": 80249,
+        "duration": 96630,
+        "created_at": "2023-10-04T00:32:23.145Z",
+        "updated_at": "2023-10-03T22:16:04.938Z",
+        "service_type": "Mobile Development",
+        "product_type": "Mobile App",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56e48146-f7c8-4e4a-9cc0-cfe787439067",
+        "name": "SEO Optimization",
+        "description": "Effective SEO optimization strategies",
+        "cost": 28886,
+        "duration": 61308,
+        "created_at": "2023-10-04T03:16:28.619Z",
+        "updated_at": "2023-10-04T02:03:12.436Z",
+        "service_type": "SEO Services",
+        "product_type": "Marketing",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d4618d48-8e1e-484f-8208-079c0cafaf90",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 28026,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-03T20:28:04.996Z",
+        "updated_at": "2023-10-03T11:40:48.522Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "783cd693-2ed3-4f1a-9e26-6c627deca41f",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 4877,
+        "vin": "2T1BURHE3EC123456",
+        "color": "Blue",
+        "created_at": "2023-10-03T13:05:11.247Z",
+        "updated_at": "2023-10-03T18:49:40.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e34e5144-e1fb-4c0e-a024-b1085eb34be1",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 99124,
+        "vin": "1FA6P8CF0F1234567",
+        "color": "Black",
+        "created_at": "2023-10-03T13:29:24.240Z",
+        "updated_at": "2023-10-04T07:12:53.976Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8423188-79b6-4183-8e9d-d4340f8ba353",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 21561,
+        "vin": "3GCUKREC1FG123456",
+        "color": "White",
+        "created_at": "2023-10-04T09:39:44.079Z",
+        "updated_at": "2023-10-03T20:05:10.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60463959-7fc5-42fa-9065-6c65a7250605",
+        "make": "BMW",
+        "model": "X5",
+        "year": 50290,
+        "vin": "5UXKR6C57F1234567",
+        "color": "Silver",
+        "created_at": "2023-10-03T21:23:32.529Z",
+        "updated_at": "2023-10-04T05:04:50.776Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3e5b2836-8385-435e-ae79-258bd959aebe",
+        "date": "2023-10-03T15:21:38.796Z",
+        "status": "Pending",
+        "notes": "Please bring your ID",
+        "created_at": "2023-10-04T07:41:41.747Z",
+        "updated_at": "2023-10-04T04:19:01.174Z",
+        "car_id": "60463959-7fc5-42fa-9065-6c65a7250605",
+        "service_id": "56e48146-f7c8-4e4a-9cc0-cfe787439067",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78b807ae-5d97-464a-8e0f-444a7ed00360",
+        "date": "2023-10-04T07:48:05.486Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-04T10:29:33.625Z",
+        "updated_at": "2023-10-03T12:33:32.679Z",
+        "car_id": "e34e5144-e1fb-4c0e-a024-b1085eb34be1",
+        "service_id": "56e48146-f7c8-4e4a-9cc0-cfe787439067",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecaf7b7d-cff1-42bd-84b6-2ab8eb35f2a3",
+        "date": "2023-10-03T20:04:06.351Z",
+        "status": "Cancelled",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-04T03:44:11.287Z",
+        "updated_at": "2023-10-04T10:18:30.209Z",
+        "car_id": "e34e5144-e1fb-4c0e-a024-b1085eb34be1",
+        "service_id": "ef61608f-6784-4edb-93e5-24a6af23ed81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cdaccd3-c366-414b-8d94-5b96ff89d949",
+        "date": "2023-10-04T10:39:29.884Z",
+        "status": "Completed",
+        "notes": "Bring all necessary documents",
+        "created_at": "2023-10-04T10:35:02.506Z",
+        "updated_at": "2023-10-03T16:42:00.605Z",
+        "car_id": "e34e5144-e1fb-4c0e-a024-b1085eb34be1",
+        "service_id": "ef61608f-6784-4edb-93e5-24a6af23ed81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d84c550f-ea0b-4ae1-acb2-d77ec75a20bc",
+        "date": "2023-10-04T06:48:46.405Z",
+        "status": "Rescheduled",
+        "notes": "No pets allowed",
+        "created_at": "2023-10-04T09:05:53.260Z",
+        "updated_at": "2023-10-03T21:58:20.377Z",
+        "car_id": "783cd693-2ed3-4f1a-9e26-6c627deca41f",
+        "service_id": "b5b6bf1c-9de3-4939-bd25-10d8bb61ca60",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "51e7f5c7-8053-4925-93d5-19d8a142f732",
+        "total_cost": 86766,
+        "paid": true,
+        "payment_date": "2023-10-04T05:45:44.786Z",
+        "created_at": "2023-10-04T01:36:02.264Z",
+        "updated_at": "2023-10-04T09:38:22.390Z",
+        "appointment_id": "78b807ae-5d97-464a-8e0f-444a7ed00360",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc0f61a6-df3b-4149-b1cf-2734a7002abb",
+        "total_cost": 18030,
+        "paid": true,
+        "payment_date": "2023-10-03T16:00:22.906Z",
+        "created_at": "2023-10-03T16:37:06.197Z",
+        "updated_at": "2023-10-04T02:14:08.607Z",
+        "appointment_id": "3e5b2836-8385-435e-ae79-258bd959aebe",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7efcf365-ac6f-49ca-9474-0936ed9c9283",
+        "total_cost": 5683,
+        "paid": true,
+        "payment_date": "2023-10-03T23:35:55.473Z",
+        "created_at": "2023-10-03T13:56:54.285Z",
+        "updated_at": "2023-10-04T10:31:53.335Z",
+        "appointment_id": "3e5b2836-8385-435e-ae79-258bd959aebe",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe9aa6a5-72cf-4b11-a167-79ed4b2e3d5e",
+        "total_cost": 50855,
+        "paid": false,
+        "payment_date": "2023-10-04T05:14:41.627Z",
+        "created_at": "2023-10-04T10:24:11.569Z",
+        "updated_at": "2023-10-03T21:31:48.720Z",
+        "appointment_id": "d84c550f-ea0b-4ae1-acb2-d77ec75a20bc",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19bc2569-952a-4506-b9c8-5ae61defdc2d",
+        "total_cost": 76269,
+        "paid": true,
+        "payment_date": "2023-10-03T23:58:39.519Z",
+        "created_at": "2023-10-03T21:59:35.219Z",
+        "updated_at": "2023-10-04T03:14:29.674Z",
+        "appointment_id": "d84c550f-ea0b-4ae1-acb2-d77ec75a20bc",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1bf5c55f-c4cb-458b-bfa7-2dbc1349e678",
+        "email": "Edwina82@roq.tech",
+        "firstName": "Flo",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/345.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c14ad25-165f-4540-84ec-28cb497c7b9e",
+        "email": "Westley.Bogisich33@roq.tech",
+        "firstName": "Eugenia",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72277453",
+        "tenantId": null
+      },
+      {
+        "reference": "8cf8996c-175d-4ded-b510-db10e3c583af",
+        "email": "Olga.Labadie@roq.tech",
+        "firstName": "Ryleigh",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98656791",
+        "tenantId": null
+      },
+      {
+        "reference": "0850f86a-2a11-4b89-8b77-8c2ba7febd84",
+        "email": "Ivah33@roq.tech",
+        "firstName": "Earlene",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93575866",
+        "tenantId": null
+      },
+      {
+        "reference": "d4e96c82-22cd-47cc-bbb0-375a05cd9085",
+        "email": "Javon58@roq.tech",
+        "firstName": "Marcelo",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52094531",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "cedf1fcb-41e2-4cbd-9b26-6bd67dde8c02",
+        "name": "Web Development",
+        "description": "Customized solutions for your business",
+        "cost": 48490,
+        "duration": 44325,
+        "created_at": "2023-10-03T13:39:52.199Z",
+        "updated_at": "2023-10-04T10:29:35.607Z",
+        "service_type": "Professional Services",
+        "product_type": "Software",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf44c547-dfe7-46bb-a8fa-50b771456264",
+        "name": "Graphic Design",
+        "description": "Creative and impactful designs",
+        "cost": 28675,
+        "duration": 82854,
+        "created_at": "2023-10-03T16:06:39.316Z",
+        "updated_at": "2023-10-04T08:58:53.823Z",
+        "service_type": "Creative Services",
+        "product_type": "Hardware",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53bc5020-619c-4995-a52b-ebcf66fed56e",
+        "name": "Marketing Strategy",
+        "description": "Effective marketing campaigns",
+        "cost": 46804,
+        "duration": 34740,
+        "created_at": "2023-10-03T16:05:22.089Z",
+        "updated_at": "2023-10-03T18:49:27.074Z",
+        "service_type": "Marketing Services",
+        "product_type": "Digital",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bbc61100-c8bd-402d-83d9-6907cbe8c6f1",
+        "name": "Data Analysis",
+        "description": "Insights to drive decision-making",
+        "cost": 11224,
+        "duration": 72971,
+        "created_at": "2023-10-04T09:51:19.577Z",
+        "updated_at": "2023-10-04T01:40:56.625Z",
+        "service_type": "Analytics Services",
+        "product_type": "Physical",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "020bd4ae-2436-41c7-b0be-c086b88311ec",
+        "name": "IT Consulting",
+        "description": "Expert advice for your IT needs",
+        "cost": 38523,
+        "duration": 10197,
+        "created_at": "2023-10-03T23:19:45.161Z",
+        "updated_at": "2023-10-03T23:32:41.825Z",
+        "service_type": "IT Services",
+        "product_type": "Consulting",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "4e206598-1b0a-4a85-9138-0d6d3229901b",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 74397,
+        "vin": "1HGCM82633A123456",
+        "color": "Red",
+        "created_at": "2023-10-04T09:35:48.427Z",
+        "updated_at": "2023-10-03T23:23:10.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e163985d-5b36-4216-80af-1c7e434d9423",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 33855,
+        "vin": "2T1BR32E34C123456",
+        "color": "Blue",
+        "created_at": "2023-10-03T16:10:16.016Z",
+        "updated_at": "2023-10-03T21:30:15.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e35c7f1-a9b2-48f4-978b-f269495283e8",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 33740,
+        "vin": "1FAFP404X4F123456",
+        "color": "Black",
+        "created_at": "2023-10-04T01:27:03.150Z",
+        "updated_at": "2023-10-03T14:06:15.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "035a1345-66dc-4540-be43-587a2629e528",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 19978,
+        "vin": "1G1PC5SB9E7203456",
+        "color": "White",
+        "created_at": "2023-10-03T14:47:56.770Z",
+        "updated_at": "2023-10-03T20:45:43.473Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed0b258a-0bef-452f-b615-2971f743a2c1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 75549,
+        "vin": "5UXKR6C54E0R12345",
+        "color": "Silver",
+        "created_at": "2023-10-04T04:36:48.480Z",
+        "updated_at": "2023-10-03T22:36:48.502Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "f1e13fee-a82b-4679-a211-3071697a4bf8",
+        "date": "2023-10-04T03:56:45.568Z",
+        "status": "Scheduled",
+        "notes": "Please bring any relevant documents",
+        "created_at": "2023-10-03T13:18:39.569Z",
+        "updated_at": "2023-10-04T11:06:42.044Z",
+        "car_id": "1e35c7f1-a9b2-48f4-978b-f269495283e8",
+        "service_id": "bbc61100-c8bd-402d-83d9-6907cbe8c6f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88626a81-8f5e-4425-90d5-17386e138abe",
+        "date": "2023-10-03T13:35:17.343Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-04T00:21:17.276Z",
+        "updated_at": "2023-10-03T21:43:54.856Z",
+        "car_id": "4e206598-1b0a-4a85-9138-0d6d3229901b",
+        "service_id": "bf44c547-dfe7-46bb-a8fa-50b771456264",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf09c99d-ac55-4172-b3db-0734e03aa143",
+        "date": "2023-10-04T02:08:51.216Z",
+        "status": "In Progress",
+        "notes": "Payment due at the time of appointment",
+        "created_at": "2023-10-03T14:19:00.645Z",
+        "updated_at": "2023-10-04T02:58:41.262Z",
+        "car_id": "1e35c7f1-a9b2-48f4-978b-f269495283e8",
+        "service_id": "cedf1fcb-41e2-4cbd-9b26-6bd67dde8c02",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fe4ffc1-fddb-4a50-a2b8-7bee2bff6796",
+        "date": "2023-10-04T10:42:36.033Z",
+        "status": "Completed",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-10-03T15:52:45.201Z",
+        "updated_at": "2023-10-04T10:22:27.189Z",
+        "car_id": "e163985d-5b36-4216-80af-1c7e434d9423",
+        "service_id": "bbc61100-c8bd-402d-83d9-6907cbe8c6f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "188a60a5-defe-4cae-8f5f-fd9e13fa36a5",
+        "date": "2023-10-03T17:36:37.947Z",
+        "status": "Cancelled",
+        "notes": "Appointment rescheduled",
+        "created_at": "2023-10-03T20:52:32.127Z",
+        "updated_at": "2023-10-03T15:04:29.963Z",
+        "car_id": "4e206598-1b0a-4a85-9138-0d6d3229901b",
+        "service_id": "cedf1fcb-41e2-4cbd-9b26-6bd67dde8c02",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "e5a05826-5095-4eae-a7b6-e552133ebcd2",
+        "total_cost": 24085,
+        "paid": true,
+        "payment_date": "2023-10-04T08:56:33.448Z",
+        "created_at": "2023-10-04T04:29:54.262Z",
+        "updated_at": "2023-10-03T14:05:52.475Z",
+        "appointment_id": "188a60a5-defe-4cae-8f5f-fd9e13fa36a5",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35ec290f-761a-41f4-8411-7d001cf38340",
+        "total_cost": 62518,
+        "paid": false,
+        "payment_date": "2023-10-04T08:16:05.630Z",
+        "created_at": "2023-10-04T02:08:40.514Z",
+        "updated_at": "2023-10-04T01:53:26.007Z",
+        "appointment_id": "f1e13fee-a82b-4679-a211-3071697a4bf8",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cee2c830-7ff5-4e9a-ab16-609004e0568d",
+        "total_cost": 19770,
+        "paid": true,
+        "payment_date": "2023-10-03T13:04:47.524Z",
+        "created_at": "2023-10-04T00:23:54.049Z",
+        "updated_at": "2023-10-03T23:48:16.170Z",
+        "appointment_id": "188a60a5-defe-4cae-8f5f-fd9e13fa36a5",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a36f10b4-4106-4687-ae90-8f8c550500c3",
+        "total_cost": 48978,
+        "paid": true,
+        "payment_date": "2023-10-04T04:31:08.255Z",
+        "created_at": "2023-10-03T20:04:40.937Z",
+        "updated_at": "2023-10-03T18:00:51.064Z",
+        "appointment_id": "188a60a5-defe-4cae-8f5f-fd9e13fa36a5",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "479a2e72-3100-46ec-9dcf-79c47a272960",
+        "total_cost": 88459,
+        "paid": true,
+        "payment_date": "2023-10-04T03:57:22.180Z",
+        "created_at": "2023-10-04T09:09:37.520Z",
+        "updated_at": "2023-10-04T03:22:30.199Z",
+        "appointment_id": "bf09c99d-ac55-4172-b3db-0734e03aa143",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63677813-f62a-4547-8136-528fb009424a",
+        "email": "Justyn_Armstrong@roq.tech",
+        "firstName": "Oleta",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e914e206-cfb7-450c-9f45-e6ff055a01eb",
+        "email": "Buddy_White@roq.tech",
+        "firstName": "Jazmyne",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/834.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3778818e-7b4a-4a94-886b-abe999d3c254",
+        "email": "Raegan71@roq.tech",
+        "firstName": "Darion",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c5262ca-3538-49c9-b3ea-c9b9c86b764a",
+        "email": "Myrtice_Hintz63@roq.tech",
+        "firstName": "Joana",
+        "lastName": "Bernier-Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81638858",
+        "tenantId": null
+      },
+      {
+        "reference": "2012b6f1-bb8a-4eda-9106-784c7174cb16",
+        "email": "Collin.OHara@roq.tech",
+        "firstName": "Eddie",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32367589",
+        "tenantId": null
+      }
+    ]
+  }
+]
